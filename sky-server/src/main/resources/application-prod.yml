@@ -1,0 +1,25 @@
+# 生产环境下的配置文件
+sky:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    host: sh-cdb-j9opd9hq.sql.tencentcdb.com
+    port: 63933
+    database: good_tj_morning
+    username: tjteam
+    password: tj123456
+
+  alioss:
+    endpoint: oss-cn-shanghai.aliyuncs.com
+    access-key-id: LTAI5tKbqfCLCv6of7NbT5pw
+    access-key-secret: fR4OJYYvBi86FAIKOeJqhBglVC5cQo
+    bucket-name: se-project-tongji
+
+  redis:
+    host: localhost
+    port: 6379
+    password: 123456
+    database: 1
+
+  wechat:
+    appid: wxc8fe78846d735b88
+    secret: e5da4befa4a9e6b9950fc48d4e3c00c2
